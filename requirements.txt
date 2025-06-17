@@ -1,0 +1,16 @@
+projectgpt/  
+├── core/                  # Inti sistem  
+│   ├── chroma_manager.py  # DB & embedding  
+│   ├── pdf_processor.py   # Ekstraksi & chunking  
+│   └── rag_engine.py      # Logic AI  
+├── data/                  # Penyimpanan  
+│   ├── uploads/           # PDF masuk sini (auto diproses)  
+│   ├── processed/         # PDF yang sudah diekstrak  
+│   └── chroma_db/         # Vector database (otomatis)  
+├── ui/                    # Tampilan user  
+│   ├── app.py             # Main Gradio UI  
+│   └── assets/            # Logo/font  
+├── models/                # Model lokal  
+│   └── embedding/         # all-MiniLM-L6-v2  
+├── logs/                  # Aktivitas sistem  
+└── README.md              # Dokumentasi  
