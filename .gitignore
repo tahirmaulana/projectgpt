@@ -1,0 +1,6 @@
+# Block data dan environment
+data/
+.venv/
+__pycache__/
+*.pyc
+.env
